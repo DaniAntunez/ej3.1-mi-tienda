@@ -51,6 +51,26 @@ header {
     justify-content: space-between;
 }
 
+.nav__aux {
+    position: fixed;
+}
+
+.box__margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box__with {
+    width: 33%;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
 .other__up {
     display: flex;
     gap: 10px;
@@ -59,12 +79,9 @@ header {
 .other__down {
     display: flex;
     gap: 10px;
+    margin-top: 15px;
 }
 
-.box__margin {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 .discount__email {
     width: 400px;
